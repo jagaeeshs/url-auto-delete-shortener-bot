@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '16564172'))
 API_HASH = environ.get('API_HASH', 'f0184f4c1bad2efdc2f59b8591c7a839')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6255426857:AAF-rL5Kzku4QvnqoddRXdzPSesZJDZsXDk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6059757588:AAEsRpgbl0sl0pw1cfpvx_nBHwSf4rpSsa0")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -71,8 +71,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'https://shareus.io')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'i1xk5XeHr0YYyW6S7LhrpwsQs7y1')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'https://tnshort.net')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'f5760039a7c4bf3fddd00c4297dfad9ff82ce46a')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
