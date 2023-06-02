@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '16564172'))
 API_HASH = environ.get('API_HASH', 'f0184f4c1bad2efdc2f59b8591c7a839')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5885891755:AAG5PNcbp-7yXGd5Z5k2K7ckXJWvD2OAaRY")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5919171158:AAFt3i8KNYMzd_8gOuNc7R9hGSf4g4PZ_8E")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -35,7 +35,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jagadeesh:jagadeesh@jagadeesh.g4mhzdz.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jagadeesh:jagadeesh@jagadeesh.v9joo7r.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "jagadeesh")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'jagadeesh')
 
